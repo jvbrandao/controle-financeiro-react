@@ -1,0 +1,36 @@
+.container-resumo-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius:5px;
+    padding: 5px 15px;
+    width: 30%;
+}
+
+.header-resumo-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 20px auto;
+    color: rgb(121, 121, 121);
+
+}
+
+.header-title-resumo-item{
+    font-size: 1.5rem;
+}
+
+.total h1{
+    font-size: 2.2rem;;
+    font-weight: bold;
+
+} 
+
+@media (max-width: 768px){
+    .container-resumo-item{
+        
+        width: 90%;
+    }
+}
